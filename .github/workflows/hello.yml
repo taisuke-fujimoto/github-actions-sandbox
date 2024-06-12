@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - '**.md'
       - '.github/workflows/**'
+      - '!.github/workflows/hello.yml'
 
 jobs:
   main:
