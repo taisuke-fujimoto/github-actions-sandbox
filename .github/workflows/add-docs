@@ -1,0 +1,12 @@
+name: Hello
+
+on:
+  push:
+    paths:
+      - '**/docs/**'
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "document added."
